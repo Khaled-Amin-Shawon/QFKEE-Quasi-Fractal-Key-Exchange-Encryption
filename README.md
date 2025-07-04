@@ -63,7 +63,11 @@ QFKEE (Quasi-Fractal Key Exchange Encryption) is a post-quantum, asymmetric cryp
 
 ## Introduction
 
-With the rise of quantum computing, traditional cryptographic algorithms like RSA and ECC are becoming increasingly vulnerable. There is a pressing need for encryption systems that are both secure and future-proof. QFKEE addresses this by combining chaotic fractal sequences, quasi-prime construction, and modern cryptographic primitives.
+With the rise of quantum computing, traditional cryptographic algorithms like RSA and ECC are becoming increasingly vulnerable. There is a pressing need for encryption systems that are both secure and future-proof.
+
+**QFKEE (Quasi-Fractal Key Exchange Encryption)** is an asymmetric cryptographic algorithm that combines chaotic fractal sequences with quasi-prime number construction to generate strong keys. It avoids algebraic structures vulnerable to quantum attacks and leverages deterministic chaos for high entropy.
+
+QFKEE uses logistic maps to generate reproducible, pseudo-random sequences, and combines them with lightweight XOR encryption and block permutation. A SHA-512-based MAC ensures message integrity and authenticity.
 
 ---
 
