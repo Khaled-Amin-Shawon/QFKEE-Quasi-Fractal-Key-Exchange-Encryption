@@ -376,9 +376,10 @@ print("Decrypted text:", decrypted)
 
 ## References
 
-1. [Stinson, D. R. (2005). Cryptography: Theory and Practice](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)
-2. [Menezes, A. J., et al. (1996). Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)
-3. [May, R. M. (1976). Simple mathematical models with very complicated dynamics](https://www.nature.com/articles/261459a0)
-4. [NIST. (2022). Post-Quantum Cryptography Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)
+1. [Menezes, A. J., et al. (1996). Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)
+2. [May, R. M. (1976). Simple mathematical models with very complicated dynamics](https://www.nature.com/articles/261459a0)
+3. [NIST. (2022). Post-Quantum Cryptography Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)
+4. [Bernstein, D. J., Buchmann, J., & Dahmen, E. (Eds.). (2009). Post-Quantum Cryptography](https://www.springer.com/gp/book/9783540887010)
+5. [Shor, P. W. (1997). Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer](https://epubs.siam.org/doi/10.1137/S0097539795293172)
 
 ---
