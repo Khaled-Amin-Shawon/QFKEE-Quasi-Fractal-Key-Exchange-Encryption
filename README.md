@@ -8,26 +8,26 @@
 
 <div align="center">
   <h3>📄 <b>Assignment Submission</b></h3>
-  <table>
-    <tr><td><b>Course Title</b></td><td>: Mathematical Analysis for Computer Science</td></tr>
-    <tr><td><b>Course Code</b></td><td>: CSE 361</td></tr>
-    <tr><td><b>Assignment Title</b></td><td>: QFKEE: Quasi-Fractal Key Exchange Encryption</td></tr>
+  <table style="border:none;">
+    <tr style="border:none;"><td style="border:none;"><b>Course Title</b></td><td style="border:none;">: Mathematical Analysis for Computer Science</td></tr>
+    <tr style="border:none;"><td style="border:none;"><b>Course Code</b></td><td style="border:none;">: CSE 361</td></tr>
+    <tr style="border:none;"><td style="border:none;"><b>Assignment Title</b></td><td style="border:none;">: QFKEE: Quasi-Fractal Key Exchange Encryption</td></tr>
   </table>
   <br/>
-  <table>
-    <tr><td><b>Submitted By</b></td><td></td></tr>
-    <tr><td>Name</td><td>: Md Khaled Amin Shawon</td></tr>
-    <tr><td>Roll</td><td>: 2102003</td></tr>
-    <tr><td>Batch</td><td>: 2021</td></tr>
-    <tr><td>Level</td><td>: 3</td></tr>
-    <tr><td>Semester</td><td>: II</td></tr>
+  <table style="border:none;">
+    <tr style="border:none;"><td style="border:none;"><b>Submitted By</b></td><td style="border:none;"></td></tr>
+    <tr style="border:none;"><td style="border:none;">Name</td><td style="border:none;">: Md Khaled Amin Shawon</td></tr>
+    <tr style="border:none;"><td style="border:none;">Roll</td><td style="border:none;">: 2102003</td></tr>
+    <tr style="border:none;"><td style="border:none;">Batch</td><td style="border:none;">: 2021</td></tr>
+    <tr style="border:none;"><td style="border:none;">Level</td><td style="border:none;">: 3</td></tr>
+    <tr style="border:none;"><td style="border:none;">Semester</td><td style="border:none;">: II</td></tr>
   </table>
   <br/>
-  <table>
-    <tr><td><b>Submitted To</b></td><td></td></tr>
-    <tr><td>Name</td><td>: Pankaj Bhowmik</td></tr>
-    <tr><td>Designation</td><td>: Lecturer</td></tr>
-    <tr><td>Department</td><td>: Computer Science and Engineering</td></tr>
+  <table style="border:none;">
+    <tr style="border:none;"><td style="border:none;"><b>Submitted To</b></td><td style="border:none;"></td></tr>
+    <tr style="border:none;"><td style="border:none;">Name</td><td style="border:none;">: Pankaj Bhowmik</td></tr>
+    <tr style="border:none;"><td style="border:none;">Designation</td><td style="border:none;">: Lecturer</td></tr>
+    <tr style="border:none;"><td style="border:none;">Department</td><td style="border:none;">: Computer Science and Engineering</td></tr>
   </table>
 </div>
 
