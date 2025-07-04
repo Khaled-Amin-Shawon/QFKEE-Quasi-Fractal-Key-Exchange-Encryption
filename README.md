@@ -38,13 +38,13 @@
   <i>A post-quantum cryptographic algorithm using fractal sequences and chaotic maps for secure, high-entropy encryption.</i>
 </div>
 
-## 📝 Abstract
+## Abstract
 
 QFKEE (Quasi-Fractal Key Exchange Encryption) is a post-quantum, asymmetric cryptographic algorithm that leverages chaotic fractal sequences and quasi-prime construction to generate high-entropy, quantum-resistant keys. It combines deterministic chaos, lightweight XOR encryption, and block permutation, with a SHA-512-based MAC for message integrity. QFKEE is designed to be secure, efficient, and future-proof against quantum attacks.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Features at a Glance](#features-at-a-glance)
@@ -61,13 +61,13 @@ QFKEE (Quasi-Fractal Key Exchange Encryption) is a post-quantum, asymmetric cryp
 
 ---
 
-## 📘 Introduction
+## Introduction
 
 With the rise of quantum computing, traditional cryptographic algorithms like RSA and ECC are becoming increasingly vulnerable. There is a pressing need for encryption systems that are both secure and future-proof. QFKEE addresses this by combining chaotic fractal sequences, quasi-prime construction, and modern cryptographic primitives.
 
 ---
 
-## ✨ Features at a Glance
+## Features at a Glance
 
 | Feature              | Description                                  |
 | -------------------- | -------------------------------------------- |
@@ -80,7 +80,7 @@ With the rise of quantum computing, traditional cryptographic algorithms like RS
 
 ---
 
-## 🔍 Related Work
+## Related Work
 
 - **RSA & ECC:** Widely used, but vulnerable to quantum attacks (Shor's algorithm).
 - **Post-Quantum Cryptography:** Lattice-based (Kyber, Dilithium), strong but resource-intensive.
@@ -90,9 +90,9 @@ With the rise of quantum computing, traditional cryptographic algorithms like RS
 
 ---
 
-## 🧮 QFKEE Algorithm Overview
+## QFKEE Algorithm Overview
 
-### **Key Generation**
+### Key Generation
 
 The security of QFKEE relies on generating a highly unpredictable, yet reproducible, sequence using the logistic map. This sequence is then used to derive cryptographic keys.
 
@@ -112,7 +112,7 @@ This process ensures the key is unique, high-entropy, and quantum-resistant.
   <br/><i>Figure: QFKEE Key Generation Algorithm Flowchart</i>
 </p>
 
-### **Encryption**
+### Encryption
 
 Encryption transforms plaintext into ciphertext using the generated fractal sequence as a mask, ensuring confidentiality and integrity.
 
@@ -128,7 +128,7 @@ Encryption transforms plaintext into ciphertext using the generated fractal sequ
   <br/><i>Figure: QFKEE Encryption Process Flowchart</i>
 </p>
 
-### **Decryption**
+### Decryption
 
 Decryption reverses the encryption process, recovering the original plaintext from the ciphertext using the same fractal sequence and key.
 
@@ -145,13 +145,11 @@ Decryption reverses the encryption process, recovering the original plaintext fr
 
 ---
 
-## 🗝️ QFKEE Key Generation: Professional Example
+## Key Generation: Professional Example
 
 This section demonstrates the QFKEE key generation process in a clear, professional, and stepwise manner.
 
----
-
-### **Key Generation Steps (English)**
+### Key Generation Steps (English)
 
 | Step | Description                                                                                                                 | Example Value                                                    |
 | ---- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -170,15 +168,13 @@ This section demonstrates the QFKEE key generation process in a clear, professio
 
 ---
 
-## 🧪 QFKEE Mini Example: Encryption & Decryption Tables
+## Encryption & Decryption Example
 
 This section demonstrates, step-by-step, how encryption and decryption work in QFKEE using the string:
 
 **"Hi, I'm khaeld "**
 
----
-
-### 🔒 Encryption Table
+### Encryption Table
 
 | Plaintext | Binary   | Mask Block | Ciphertext (XOR Result) | Ciphertext (Char) |
 | --------- | -------- | ---------- | ----------------------- | ----------------- |
@@ -202,9 +198,7 @@ _Note: Some ciphertext characters may be non-printable or appear as unusual symb
 
 **Explanation (English):** Each character is converted to binary, XORed with a mask block (from the fractal sequence), producing the ciphertext and its ASCII character.
 
----
-
-### 🔓 Decryption Table
+### Decryption Table
 
 | Ciphertext (XOR Result) | Ciphertext (Char) | Mask Block | Decrypted Binary | Recovered Character |
 | ----------------------- | ----------------- | ---------- | ---------------- | ------------------- |
@@ -230,7 +224,7 @@ _Note: Some ciphertext characters may be non-printable or appear as unusual symb
 
 ---
 
-## 🔑 Key Exchange Protocol (Algorithm)
+## Key Exchange Protocol
 
 **Algorithm: QFKEE Key Exchange**
 
@@ -251,11 +245,9 @@ At this point, both person1 and person2 share the same symmetric session key, wh
 
 ---
 
-## 🐍 QFKEE Python Implementation Examples
+## Python Implementation
 
 This section provides clear, commented Python code for the main QFKEE algorithm steps: key generation, encryption, and decryption.
-
----
 
 ### 1. Key Generation
 
@@ -294,8 +286,6 @@ print("Generated Key:", key)
 
 **Explanation (English):** Generates a high-entropy key using a logistic map, binary conversion, and SHA-512 hash.
 
----
-
 ### 2. Encryption
 
 ```python
@@ -320,8 +310,6 @@ print("Ciphertext (binary):", ciphertext)
 
 **Explanation (English):** Encrypts plaintext by XORing with fractal mask blocks and permuting the result.
 
----
-
 ### 3. Decryption
 
 ```python
@@ -342,7 +330,7 @@ print("Decrypted text:", decrypted)
 
 ---
 
-## 🚀 Implementation Details
+## Implementation Details
 
 - **Logistic Map Implementation**
 - **Quasi-Prime Construction**
@@ -359,7 +347,7 @@ print("Decrypted text:", decrypted)
 
 ---
 
-## 📊 Performance & Security
+## Performance & Security
 
 **English:**
 
@@ -373,7 +361,7 @@ print("Decrypted text:", decrypted)
 
 ---
 
-## 🔬 Future Work
+## Future Work
 
 - Formal security proofs
 - Performance optimization
@@ -382,7 +370,7 @@ print("Decrypted text:", decrypted)
 
 ---
 
-## 📚 References
+## References
 
 1. Stinson, D. R. (2005). _Cryptography: Theory and Practice_
 2. Menezes, A. J., et al. (1996). _Handbook of Applied Cryptography_
