@@ -376,11 +376,9 @@ print("Decrypted text:", decrypted)
 
 ## References
 
-1. Stinson, D. R. (2005). _Cryptography: Theory and Practice_
-2. Menezes, A. J., et al. (1996). _Handbook of Applied Cryptography_
-3. May, R. M. (1976). _Simple mathematical models with very complicated dynamics_
-4. NIST. (2022). _Post-Quantum Cryptography Standardization_
+1. [Stinson, D. R. (2005). Cryptography: Theory and Practice](https://www.crcpress.com/Cryptography-Theory-and-Practice-Third-Edition/Stinson/p/book/9781584885085)
+2. [Menezes, A. J., et al. (1996). Handbook of Applied Cryptography](http://cacr.uwaterloo.ca/hac/)
+3. [May, R. M. (1976). Simple mathematical models with very complicated dynamics](https://www.nature.com/articles/261459a0)
+4. [NIST. (2022). Post-Quantum Cryptography Standardization](https://csrc.nist.gov/projects/post-quantum-cryptography)
 
 ---
-
-<p align="center"><i>This assignment demonstrates the application of mathematical analysis concepts in developing novel cryptographic solutions for the quantum computing era.</i></p>
