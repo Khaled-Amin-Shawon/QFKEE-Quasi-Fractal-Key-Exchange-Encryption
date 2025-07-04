@@ -149,11 +149,11 @@ Decryption reverses the encryption process, recovering the original plaintext fr
 
 ---
 
-## Key Generation: Professional Example
+## Key Generation Example
 
-This section demonstrates the QFKEE key generation process in a clear, professional, and stepwise manner.
+This section demonstrates the QFKEE key generation process in a clear and stepwise manner.
 
-### Key Generation Steps (English)
+### Key Generation Steps
 
 | Step | Description                                                                                                                 | Example Value                                                    |
 | ---- | --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
@@ -200,7 +200,7 @@ This section demonstrates, step-by-step, how encryption and decryption work in Q
 
 _Note: Some ciphertext characters may be non-printable or appear as unusual symbols._
 
-**Explanation (English):** Each character is converted to binary, XORed with a mask block (from the fractal sequence), producing the ciphertext and its ASCII character.
+**Explanation :** Each character is converted to binary, XORed with a mask block (from the fractal sequence), producing the ciphertext and its ASCII character.
 
 ### Decryption Table
 
@@ -224,7 +224,7 @@ _Note: Some ciphertext characters may be non-printable or appear as unusual symb
 
 _Note: Some ciphertext characters may be non-printable or appear as unusual symbols._
 
-**Explanation (English):** The receiver XORs the ciphertext with the same mask block to recover the original binary and character.
+**Explanation :** The receiver XORs the ciphertext with the same mask block to recover the original binary and character.
 
 ---
 
@@ -288,7 +288,7 @@ key = key_generation()
 print("Generated Key:", key)
 ```
 
-**Explanation (English):** Generates a high-entropy key using a logistic map, binary conversion, and SHA-512 hash.
+**Explanation :** Generates a high-entropy key using a logistic map, binary conversion, and SHA-512 hash.
 
 ### 2. Encryption
 
@@ -312,7 +312,7 @@ ciphertext, mask_blocks = encrypt(plaintext)
 print("Ciphertext (binary):", ciphertext)
 ```
 
-**Explanation (English):** Encrypts plaintext by XORing with fractal mask blocks and permuting the result.
+**Explanation :** Encrypts plaintext by XORing with fractal mask blocks and permuting the result.
 
 ### 3. Decryption
 
@@ -330,7 +330,7 @@ decrypted = decrypt(ciphertext, mask_blocks)
 print("Decrypted text:", decrypted)
 ```
 
-**Explanation (English):** Decrypts by reversing permutation and XORing with the same mask blocks to recover the original text.
+**Explanation :** Decrypts by reversing permutation and XORing with the same mask blocks to recover the original text.
 
 ---
 
