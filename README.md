@@ -34,7 +34,7 @@
 <hr/>
 
 <div align="center" style="background:#f0f8ff;color:black; border-radius:8px; padding:10px 0; margin-bottom:20px;">
-  <b style=" font-size: 28">🔑 QFKEE: Quasi-Fractal Key Exchange Encryption</b><br/>
+  <b style=" font-size: 32 "><h2>🔑 QFKEE: Quasi-Fractal Key Exchange Encryption</h2></b><br/>
   <i>A post-quantum cryptographic algorithm using fractal sequences and chaotic maps for secure, high-entropy encryption.</i>
 </div>
 
